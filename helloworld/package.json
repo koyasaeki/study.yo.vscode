@@ -1,6 +1,6 @@
 {
-  "name": "helloworld",
-  "displayName": "HelloWorld",
+  "name": "hellovscode",
+  "displayName": "HelloVSCode",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -10,14 +10,19 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:helloworld.helloWorld"
+    "onCommand:HelloVSCode",
+    "onCommand:HelloVSCode.Now"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "helloworld.helloWorld",
-        "title": "Hello World"
+        "command": "HelloVSCode",
+        "title": "Hello VSCode"
+      },
+      {
+        "command": "HelloVSCode.Now",
+        "title": "Hello VSCode Now"
       }
     ]
   },
